@@ -1,0 +1,44 @@
+body {
+    background-color:  rgb(206, 206, 219);
+    font-style: italic;
+    color: black;
+    margin: 10px;
+}
+h1 {
+    color: black;
+    margin-top: 0;
+}
+p {
+    color: black;
+    font-size: 20px;
+    line-height: 1;
+}
+ul {
+    list-style-type: black;
+    padding: 10px;
+}
+li {
+    margin-bottom: 15px;
+}
+button {
+background-color: #1f91de;
+    color: white;
+    padding: 12px 20px;
+       border:rgb(55, 155, 222);
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 200px;
+    transition: background-color 1s ease;
+    transition-behavior: initial; 
+}
+button:hover {
+    background-color: #2194e1;
+}
+::view-transition-image-pair {
+    border-radius: 20px;
+}
+button:hover {
+    background-color: #081f2e;
+}
