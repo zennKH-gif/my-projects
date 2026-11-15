@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #f4f6f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    text-align: center;
+    max-width: 600px;
+    padding: 40px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 0.05)
+}
+h1 {
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+.subtitle {
+    color: #666;
+    margin-bottom: 30px;
+}
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.btn {
+    padding: 12px 14px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.25 ease;
+}
+.btn-primary {
+    background-color: #4f46e5;
+    color: white;
+}
+.btn-primary:hover {
+    background-color: #4338ca;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+}
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid #4f46e5;
+    color: #4f46e5;
+}
+.btn-outline:hover {
+    background-color: #4f46e5;
+    color: white;
+    transform: translateY(-3px);
+}
+.btn-glow {
+    background-color: #10b981;
+    color: white;
+}
+.btn-glow:hover {
+    background-color: #059669;
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.6)
+}
+.card {
+    background: #fafafa;
+    border: 1px solid #eaeaea;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+}
+.card h3 {
+    margin-bottom: 8px;
+    color: #111;
+}
+.card p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+}
