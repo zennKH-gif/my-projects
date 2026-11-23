@@ -30,7 +30,7 @@ while (stamina > 0) {
         console.log("Stamina too low! Stopping training early to rest.");
         break;
     }
-
+    
     round++;
 }
 // ===== PART 4 (BONUS): Milestone Loop (1 to 15) =====
